@@ -150,7 +150,9 @@ namespace Anti_Deco_LostArk
             this.Controls.Add(this.logTB);
             this.Controls.Add(this.rightRB);
             this.Controls.Add(this.leftRB);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Anti afk by TheGeogeo";
             this.Load += new System.EventHandler(this.Form1_Load);
